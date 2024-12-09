@@ -79,7 +79,7 @@ checkbox_state.set(True)
 checkbox = Checkbutton(window, text='Открыть/Закрыть', font=font, var=checkbox_state)
 checkbox.place(x=50, y=10)
 
-i = PhotoImage(file="fridge.gif")
+i = PhotoImage(file="fridge/fridge.gif")
 ilabel = Label(window, image=i)
 ilabel.place(x=-120, y=50)
 
